@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+*{
+    font-family: "Montserrat";
+   
+}
+header.navbar{
+  display: flex;
+flex-wrap: wrap;
+
+}
+.logo{
+     filter: invert();
+     margin-top: 2vw;
+     margin-left: 11.3vw;
+}
+.nav{
+    margin-top: 3vw;
+
+}
+a{  
+    text-decoration: none;
+    font-size: 23px;
+    margin-left: 3vw;
+    color: gray;
+    font-weight: bold;
+}
+a:hover{
+    color: #1f1f1f;
+}
+.button button{
+    margin-top: 2vw;
+    margin-left: 7vw;
+    font-size: 23px;
+    padding-left: 50px;
+    padding-right: 50px;
+    block-size: 50px;
+    border-radius: 10px;
+    border: 2px solid #1B98F5;
+    color: #1B98F5;
+}
+.content{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+}
+.content1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    justify-content: space-around;
+  
+}
+.content1 div h1{
+    font-size: 60px;
+
+}
+.content1 div p{
+    font-size: 17px;
+}
+.content1 div button{
+    block-size: 3vw;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 19px;
+    background: linear-gradient(340deg, #0080e2,#9abae2);
+}
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.service h1{
+    font-size: 54px;
+    margin-left: 3.6vw;
+}
+.service p{
+    position: relative;
+    left: -6vw;
+    font-size: 17px;
+    margin-top: 3vw;
+    
+}
+.hosting{
+    display: flex;
+    flex-wrap: wrap;
+   margin-top: 2vw;
+}
+.hosting1{
+    margin-top: 3vw;
+    
+    margin-left: 11vw;
+}
+.hosting1 h1{
+    font-size: 35px;
+}
+.flexTrans{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+    padding: 10vw;
+    padding-top: 2vw;
+    background: linear-gradient(340deg, #0080e2,#9abae2);
+    
+}
+.flexTrans h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    padding-bottom: 3vw;
+    color: #ffffff;
+
+}
+.packages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.head_1{
+    background: #1f1f1f;
+    color: #ffffff;
+    padding-bottom: 3px;
+    border-top-left-radius: 20px;border-top-right-radius: 20px;
+}
+.pricing{
+    
+   
+    border-radius: 19px;
+    background: #ffffff;
+}
+.head{
+    padding-bottom: 3px;
+   
+}
+.head:hover{
+    color: #ffffff;
+    background: #1f1f1f;
+    border-top-left-radius: 20px;border-top-right-radius: 20px;
+}
+.pricing h3{
+    padding: 2vw;
+    font-size: 35px;
+    margin-top: -3px;
+}
+p.pricing1{
+    padding-left: 2vw;
+     margin-top: -50px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.para{
+    padding-left: 2vw;
+}
+.para button{
+    block-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #1B98F5;
+    color: #1B98F5;
+    font-weight: bold;
+}
+.para button:hover{
+    background: linear-gradient(340deg, #0080e2,#b8d8f1);
+    color: #ffffff;
+}
+.para p span{
+    border: 2px solid #1B98F5;
+    padding-left: 2px;
+    padding-right: 3px;
+    color: #1B98F5;
+    border-radius: 50px;
+}
+.CustomerLove{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    font-size: 45px;
+}
+.andrew{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.andrew1{
+    margin: 30px;
+    padding: 30px;
+    border: 0.1px solid rgb(230, 222, 222);
+   
+    width: 30%;
+
+}
+.andrew1 p{
+    margin-bottom: 30px;
+}
+.andrew1 button{
+    block-size: 40px;
+    padding: 30px;
+    border-radius: 40px;
+    border: none;
+}
+.aut{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.aut1{
+    margin-left: 30px;
+    margin-top: -10px;
+}
+.register{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    
+    background: linear-gradient(340deg, #0080e2,#9abae2);
+    padding: 30px;
+}
+.reg{
+    color: #ffffff;
+    padding: 40px;
+   
+}
+.register button{
+    font-size: 30px;
+    border: 1px solid #ffffff;
+   border-radius: 7px;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    block-size: 70px;
+    margin-top: 4vw;
+    background: transparent;
+}
+
+footer{
+  margin-left: 150px;
+  margin-top: 40px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.logo1{
+   
+    width: 17%;
+}
+.logo1 img{
+
+    filter: invert();
+}
+
+.bar{
+   
+    width: 20%;
+}
+.bar li{
+    margin-bottom: 20px;
+    list-style-type: none;
+    font-size: 16px;
+    
+}
+
